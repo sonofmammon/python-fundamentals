@@ -36,14 +36,13 @@ Frequency counts for the letters are as follows:
 
 There are two ways to make the valid string:
 
--   Remove **4** characters with a frequency of **1** : **{fghi}**.
--   Remove  characters of frequency  :  .
-
+-   Remove **4** characters with a frequency of **1** :  `{fghi}`.
+-   Remove 5 characters of frequency 2: `{abcde}`.
 Neither of these is an option.
 
 **Sample Input 2**
 
-abcdefghhgfedecba
+    abcdefghhgfedecba
 
 **Sample Output 2**
 
@@ -51,8 +50,8 @@ YES
 
 **Explanation 2**
 
-All characters occur twice except for  which occurs  times. We can delete one instance of  to have a valid string.
+All characters occur twice except for **e** which occurs 3 times. We can delete one instance of e to have a valid string.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMxNjU4NjRdfQ==
+eyJoaXN0b3J5IjpbLTQ3ODAwOTUwNV19
 -->
