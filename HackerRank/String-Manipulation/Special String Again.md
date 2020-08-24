@@ -15,8 +15,8 @@ It should return an integer representing the number of special substrings that c
  -   _s_: a string
 
 **Input Format**
- - The first line contains an integer,  , the length of  .   
- - The second line contains the string s.
+ - The first line contains an integer, **n**, the length of **s**.   
+ - The second line contains the string **s**.
  
 **Output Format**
  - Print a single line containing the count of total special substrings.
@@ -34,12 +34,15 @@ It should return an integer representing the number of special substrings that c
 The special palindromic substrings of `s = asasd` are `{a, s, a, s, d, asa, sas}`
 
 **Sample Input 1**
-7
-abcbaba
+
+    7
+    abcbaba
 **Sample Output 1**
-10 
+
+    10 
+
 **Explanation 1**
-The special palindromic substrings of  are
+The special palindromic substrings of `s = asasd` are `{a, s, a, s, d, asa, sas}`
 
 **Sample Input 2**
 4
@@ -49,6 +52,6 @@ aaaa
 **Explanation 2**
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTk4NTI3LC02NTcyODM0ODcsMTk4NT
-Y0NDg3OV19
+eyJoaXN0b3J5IjpbLTE2MDAyMDAwNTQsLTY1NzI4MzQ4NywxOT
+g1NjQ0ODc5XX0=
 -->
