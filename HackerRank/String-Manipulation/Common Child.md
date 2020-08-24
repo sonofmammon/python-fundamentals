@@ -27,44 +27,30 @@ SALLY
  2
 ```
 **Explanation**
-The longest string that can be formed by deleting zero or more characters from  and  is  , whose length is 2.
+The longest string that can be formed by deleting zero or more characters from `HARRY` and `SALLY` is `AY`, whose length is 2.
 
 **Sample Input 1**
-
 ```
 AA
 BB
-
 ```
-
 **Sample Output 1**
-
 ```
 0
-
 ```
-
 **Explanation 1**
-
-and  have no characters in common and hence the output is 0.
+`AA`and `BB` have no characters in common and hence the output is 0.
 
 **Sample Input 2**
-
 ```
 SHINCHAN
 NOHARAAA
-
 ```
-
 **Sample Output 2**
-
 ```
 3
-
 ```
-
 **Explanation 2**
-
 The longest string that can be formed between  and  while maintaining the order is  .
 
 **Sample Input 3**
@@ -85,5 +71,5 @@ FBDAMN
 **Explanation 3**  
 is the longest child of the given strings.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzE3MTI4XX0=
+eyJoaXN0b3J5IjpbMjY0MzM3NjkzXX0=
 -->
