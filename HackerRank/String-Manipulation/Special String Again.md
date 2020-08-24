@@ -53,9 +53,9 @@ The special palindromic substrings of `s = abcbaba` are `{a, b, c, b, a, b, a, b
     10
 
 **Explanation 2**
-The special palindromic substrings of `s = ab` are `{a, b, c, b, a, b, a, bcb, bab, aba}`
+The special palindromic substrings of `s = aaaa` are `{a, a, a, a, aa, aa, aa, aaa, aaa, aaaa}`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA4NDY1MzMsLTY1NzI4MzQ4NywxOT
-g1NjQ0ODc5XX0=
+eyJoaXN0b3J5IjpbNTUzNjA1OTYyLC02NTcyODM0ODcsMTk4NT
+Y0NDg3OV19
 -->
