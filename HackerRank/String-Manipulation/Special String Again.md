@@ -2,9 +2,9 @@ A string is said to be a  _special string_  if either of two conditions is met:
 -   All of the characters are the same, e.g.  `aaa`.
 -   All characters except the middle one are the same, e.g.  `aadaa`.
 
-A  _special substring_  is any substring of a string which meets one of those criteria. Given a string, determine how many special substrings can be formed from it.
-
-For example, given the string  , we have the following special substrings:  .
+A  _special substring_  is any substring of a string which meets one of those criteria. 
+Given a string, determine how many special substrings can be formed from it.
+For example, given the string , we have the following special substrings:  .
 
 **Function Description**
 
@@ -68,5 +68,6 @@ aaaa
 
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzI4MzQ4NywxOTg1NjQ0ODc5XX0=
+eyJoaXN0b3J5IjpbMjA0ODk2NzM1NSwtNjU3MjgzNDg3LDE5OD
+U2NDQ4NzldfQ==
 -->
