@@ -14,12 +14,10 @@ It should return an integer representing the number of special substrings that c
 -   _n_: an integer, the length of string  _s_
 -   _s_: a string
 
-### Input Format
-The first line contains an integer,  , the length of  .  
-The second line contains the string  .
+Input Format
 
-### Constraints
-Each character of the string is a lowercase alphabet,  .
+ - The first line contains an integer,  , the length of  .   
+ - The second line contains the string  .
 
 ### Output Format
 Print a single line containing the count of total special substrings.
@@ -48,6 +46,6 @@ aaaa
 **Explanation 2**
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODc5Njg5MCwtNjU3MjgzNDg3LDE5OD
-U2NDQ4NzldfQ==
+eyJoaXN0b3J5IjpbLTE0MDQyODM1MDIsLTY1NzI4MzQ4NywxOT
+g1NjQ0ODc5XX0=
 -->
