@@ -1,5 +1,4 @@
 A string is said to be a  _special string_  if either of two conditions is met:
-
 -   All of the characters are the same, e.g.  `aaa`.
 -   All characters except the middle one are the same, e.g.  `aadaa`.
 
@@ -69,5 +68,5 @@ aaaa
 
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTY0NDg3OV19
+eyJoaXN0b3J5IjpbLTY1NzI4MzQ4NywxOTg1NjQ0ODc5XX0=
 -->
