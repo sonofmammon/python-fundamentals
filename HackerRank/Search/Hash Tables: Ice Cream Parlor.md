@@ -6,7 +6,7 @@ Given the value of `money` and the `cost` of each flavor for `t` trips to the Ic
 For example, there are `n = 5` flavors having `cost = [2,1,3,5,6]`. Together they have `money = 5` to spend. They would purchase flavor ID's `1` and `3` for a cost of `2 + 3 = 5`. Use `1` based indexing for your response.
 
 **Note:**
--   Two ice creams having unique IDs *i* and `j` may have the same cost (i.e., `cost[i] == cost[j]).
+-   Two ice creams having unique IDs *i* and `j` may have the same cost (i.e., `cost[i] == cost[j]`).
 -   There will always be a unique solution.
 
 ## **Function Description**
@@ -20,19 +20,15 @@ whatFlavors has the following parameter(s):
 
 **Input Format**
 
-The first line contains an integer,  , the number of trips to the ice cream parlor.
-
-Each of the next  sets of  lines is as follows:
-
--   The first line contains  .
--   The second line contains an integer,  , the size of the array  .
--   The third line contains  space-separated integers denoting the  .
-
-**Constraints**
+The first line contains an integer, `t`, the number of trips to the ice cream parlor.
+Each of the next *t* sets of `3` lines is as follows:
+-   The first line contains `money`.
+-   The second line contains an integer, `n`, the size of the array `cost`.
+-   The third line contains `n` space-separated integers denoting the `cost[i]`.
 
 **Output Format**
 
-Print two space-separated integers denoting the respective indices for the two distinct flavors they choose to purchase in ascending order. Recall that each ice cream flavor has a unique ID number in the inclusive range from  to  .
+Print two space-separated integers denoting the respective indices for the two distinct flavors they choose to purchase in ascending order. Recall that each ice cream flavor has a unique ID number in the inclusive range from `1` to .
 
 **Sample Input**
 
@@ -62,6 +58,6 @@ Sunny and Johnny make the following two trips to the parlor:
 1.  The first time, they pool together  dollars. There are five flavors available that day and flavors  and  have a total cost of  .
 2.  The second time, they pool together  dollars. There are four flavors available that day and flavors  and  have a total cost of  .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI0NDQ5NTUsLTE1Nzg4OTI0OTddfQ
+eyJoaXN0b3J5IjpbLTE4NjU5NjcxMjQsLTE1Nzg4OTI0OTddfQ
 ==
 -->
