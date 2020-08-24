@@ -12,63 +12,43 @@ Complete the  _substrCount_  function in the editor below.
 It should return an integer representing the number of special substrings that can be formed from the given string.
 
 *substrCount* has the following parameter(s):
-
 -   _n_: an integer, the length of string  _s_
 -   _s_: a string
 
 **Input Format**
-
 The first line contains an integer,  , the length of  .  
 The second line contains the string  .
 
 **Constraints**
-
-  
 Each character of the string is a lowercase alphabet,  .
 
 **Output Format**
-
 Print a single line containing the count of total special substrings.
 
 **Sample Input 0**
-
 5
 asasd
-
 **Sample Output 0**
-
 7 
-
 **Explanation 0**
-
 The special palindromic substrings of  are
 
 **Sample Input 1**
-
 7
 abcbaba
-
 **Sample Output 1**
-
 10 
-
 **Explanation 1**
-
 The special palindromic substrings of  are
 
 **Sample Input 2**
-
 4
 aaaa
-
 **Sample Output 2**
-
 10
-
 **Explanation 2**
-
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mzg2NTk5LC02NTcyODM0ODcsMTk4NT
-Y0NDg3OV19
+eyJoaXN0b3J5IjpbLTEzODA1OTczNzksLTY1NzI4MzQ4NywxOT
+g1NjQ0ODc5XX0=
 -->
