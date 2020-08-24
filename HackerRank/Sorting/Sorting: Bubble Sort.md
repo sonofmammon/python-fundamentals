@@ -34,13 +34,12 @@ It took  swaps to sort the array. Output would be
     Last Element: 6  
 
 **Function Description**
-Complete the function  _countSwaps_  in the editor below. It should print the three lines required, then return.
+Complete the function  _countSwaps_  in the editor below. 
+It should print the three lines required, then return.
 countSwaps has the following parameter(s):
-
 -   _a_: an array of integers .
 
 **Input Format**
-
 The first line contains an integer,  , the size of the array  .  
 The second line contains  space-separated integers  .
 
@@ -96,5 +95,5 @@ The array is  _not sorted_, and its initial values are:  . The following  swaps 
 
 At this point the array is sorted and we print the necessary three lines of output shown above.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc3MDIzMzldfQ==
+eyJoaXN0b3J5IjpbLTM2NTI0NTk3M119
 -->
