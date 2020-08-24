@@ -25,14 +25,12 @@ NO
 
 **Explanation 0**
 
-Given  , we would need to remove two characters, both  `c`  and  `d`  `aabb`  or  `a`  and  `b`  `abcd`, to make it valid. We are limited to removing only one character, so  is  _invalid_.
+Given  s = "aabbcd", we would need to remove two characters, both  `c`  and  `d`  -> `aabb`  or  `a`  and  `b` -> `abcd`, to make it valid. We are limited to removing only one character, so ***s*** is  _invalid_.
 
-**Sample Input 1**
-
+**Sample Input 1** 
 aabbccddeefghi
 
 **Sample Output 1**
-
 NO
 
 **Explanation 1**
@@ -60,5 +58,5 @@ YES
 
 All characters occur twice except for  which occurs  times. We can delete one instance of  to have a valid string.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzg5MjkwXX0=
+eyJoaXN0b3J5IjpbLTU5OTc1NTMyMl19
 -->
