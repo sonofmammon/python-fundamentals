@@ -8,10 +8,10 @@ For example, given the string `s = mnonpoo`, we have the following special subst
 `{m, n, o, n, o, p, o, o, non, ono, opo, oo}`.
 
 **Function Description**
+Complete the  _substrCount_  function in the editor below. 
+It should return an integer representing the number of special substrings that can be formed from the given string.
 
-Complete the  _substrCount_  function in the editor below. It should return an integer representing the number of special substrings that can be formed from the given string.
-
-substrCount has the following parameter(s):
+*substrCount* has the following parameter(s):
 
 -   _n_: an integer, the length of string  _s_
 -   _s_: a string
@@ -69,6 +69,6 @@ aaaa
 
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyMzM0MzY1LC02NTcyODM0ODcsMTk4NT
+eyJoaXN0b3J5IjpbLTM3Mzg2NTk5LC02NTcyODM0ODcsMTk4NT
 Y0NDg3OV19
 -->
