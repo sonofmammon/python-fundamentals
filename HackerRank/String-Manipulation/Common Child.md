@@ -11,31 +11,22 @@ It should return the longest string which is a common child of the input strings
 
 ### **Input Format**
 
-There is one line with two space-separated strings,  and  .
+There is one line with two space-separated strings, `s1` and `s2`.
 
-
-
-**Output Format**
-
-Print the length of the longest string  , such that  is a child of both  and  .
+### **Output Format**
+Print the length of the longest string `s`, such that `s` is a child of both `s1` and `s2`.
 
 **Sample Input**
-
 ```
 HARRY
 SALLY
-
 ```
 
 **Sample Output**
-
 ```
  2
-
 ```
-
 **Explanation**
-
 The longest string that can be formed by deleting zero or more characters from  and  is  , whose length is 2.
 
 **Sample Input 1**
@@ -94,5 +85,5 @@ FBDAMN
 **Explanation 3**  
 is the longest child of the given strings.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjYzMDkyOV19
+eyJoaXN0b3J5IjpbMTQ1NzE3MTI4XX0=
 -->
