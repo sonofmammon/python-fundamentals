@@ -2,7 +2,7 @@ Sherlock considers a string to be  _valid_  if all characters of the string appe
 
 For example, if **s = abc**, it is a valid string because frequencies are `{a: 1, b: 1, c: 1}`. So is **s = abcc** because we can remove one **c** and have **1** of each character in the remaining string. If **s = abccc** however, the string is not  _valid_  as we can only remove **1** occurrence of **c**. That would leave character frequencies of `{ a: 1, b: 1, c: 2 }`.
 
-**Function Description**
+## Function Description
 Complete the  _isValid_  function in the editor below. 
 It should return either the string  `YES`  or the string  `NO`.
 isValid has the following parameter(s):
@@ -53,5 +53,5 @@ Neither of these is an option.
 All characters occur twice except for **e** which occurs **3** times. We can delete one instance of **e** to have a valid string.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Njc4MTkyMV19
+eyJoaXN0b3J5IjpbMjA2MTY1Njg0NV19
 -->
