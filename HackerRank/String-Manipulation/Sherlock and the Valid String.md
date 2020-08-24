@@ -1,6 +1,6 @@
 Sherlock considers a string to be  _valid_  if all characters of the string appear the same number of times. It is also  _valid_  if he can remove just **1** character at **1** index in the string, and the remaining characters will occur the same number of times. Given a string  **s**, determine if it is  _valid_. If so, return  `YES`, otherwise return  `NO`.
 
-For example, if ***s = abc***, it is a valid string because frequencies are {a: 1, b: 1, c: 1}. So is  because we can remove one  and have  of each character in the remaining string. If  however, the string is not  _valid_  as we can only remove  occurrence of  . That would leave character frequencies of  .
+For example, if ***s = abc***, it is a valid string because frequencies are {a: 1, b: 1, c: 1}. So is ***s = abcc*** because we can remove one ***c*** and have ***1*** of each character in the remaining string. If ***s = abccc*** however, the string is not  _valid_  as we can only remove  occurrence of  . That would leave character frequencies of  .
 
 **Function Description**
 
@@ -67,5 +67,5 @@ YES
 
 All characters occur twice except for  which occurs  times. We can delete one instance of  to have a valid string.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzk0NzcwNl19
+eyJoaXN0b3J5IjpbLTE5MzU2MTAzOTddfQ==
 -->
