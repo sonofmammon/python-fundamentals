@@ -10,19 +10,16 @@ isValid has the following parameter(s):
 
 **Input Format**
 A single string  ***s***
-
-**Constraints**
--   Each character
-
 **Output Format**
 Print  `YES`  if string  is  _valid_, otherwise, print  `NO`.
 
 **Sample Input 0**
-aabbcd
+
+    aabbcd
 
 **Sample Output 0**
-NO
 
+    NO
 **Explanation 0**
 
 Given  s = "aabbcd", we would need to remove two characters, both  `c`  and  `d`  -> `aabb`  or  `a`  and  `b` -> `abcd`, to make it valid. We are limited to removing only one character, so ***s*** is  _invalid_.
@@ -39,7 +36,7 @@ Frequency counts for the letters are as follows:
 
 There are two ways to make the valid string:
 
--   Remove 4 characters with a frequency of **1** : **{fghi}**.
+-   Remove **4** characters with a frequency of **1** : **{fghi}**.
 -   Remove  characters of frequency  :  .
 
 Neither of these is an option.
@@ -57,5 +54,5 @@ YES
 All characters occur twice except for  which occurs  times. We can delete one instance of  to have a valid string.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjYyNzI4MV19
+eyJoaXN0b3J5IjpbLTE5NTMxNjU4NjRdfQ==
 -->
