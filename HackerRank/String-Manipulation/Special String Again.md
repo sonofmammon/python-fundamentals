@@ -42,16 +42,20 @@ The special palindromic substrings of `s = asasd` are `{a, s, a, s, d, asa, sas}
     10 
 
 **Explanation 1**
-The special palindromic substrings of `s = asasd` are `{a, s, a, s, d, asa, sas}`
+The special palindromic substrings of `s = abcbaba` are `{a, b, c, b, a, b, a, bcb, bab, aba}`
 
 **Sample Input 2**
-4
-aaaa
+
+    4
+    aaaa
 **Sample Output 2**
-10
+
+    10
+
 **Explanation 2**
-The special palindromic substrings of  are
+The special palindromic substrings of `s = ab` are `{a, b, c, b, a, b, a, bcb, bab, aba}`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAyMDAwNTQsLTY1NzI4MzQ4NywxOT
+eyJoaXN0b3J5IjpbLTExMDA4NDY1MzMsLTY1NzI4MzQ4NywxOT
 g1NjQ0ODc5XX0=
 -->
