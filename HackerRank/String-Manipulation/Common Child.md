@@ -21,7 +21,6 @@ Print the length of the longest string `s`, such that `s` is a child of both `s1
 HARRY
 SALLY
 ```
-
 **Sample Output**
 ```
  2
@@ -51,25 +50,19 @@ NOHARAAA
 3
 ```
 **Explanation 2**
-The longest string that can be formed between  and  while maintaining the order is  .
+The longest string that can be formed between `SHINCHAN` and `NOHARAAA` while maintaining the order is `NHA`.
 
 **Sample Input 3**
-
 ```
 ABCDEF
 FBDAMN
-
 ```
-
 **Sample Output 3**
-
 ```
 2
-
 ```
-
 **Explanation 3**  
-is the longest child of the given strings.
+`BD` is the longest child of the given strings.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MzM3NjkzXX0=
+eyJoaXN0b3J5IjpbLTIwNDgzMzUwMzFdfQ==
 -->
