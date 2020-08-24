@@ -3,9 +3,9 @@ A string is said to be a child of a another string if it can be formed by deleti
 For example,  `ABCD`  and  `ABDC`  have two children with maximum length 3,  `ABC`  and  `ABD`. They can be formed by eliminating either the  `D`  or  `C`  from both strings. Note that we will not consider  `ABCD`  as a common child because we can't rearrange characters and  `ABCD` != `ABDC`.
 
 ## Function Description
-
 Complete the  _commonChild_  function in the editor below. 
 It should return the longest string which is a common child of the input strings.
+
 *commonChild* has the following parameter(s):
 -   _s1, s2_: two equal length strings
 
@@ -68,5 +68,5 @@ FBDAMN
 **Explanation 3**  
 `BD` is the longest child of the given strings.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTk0NzIyMV19
+eyJoaXN0b3J5IjpbMTI0NDkxMTI3NV19
 -->
