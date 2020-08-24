@@ -11,10 +11,11 @@ It should return the longest string which is a common child of the input strings
 
 ### **Input Format**
 
-There is one line with two space-separated strings, `s1` and `s2`.
+ - There is one line with two space-separated strings, `s1` and `s2`.
 
 ### **Output Format**
-Print the length of the longest string `s`, such that `s` is a child of both `s1` and `s2`.
+
+ - Print the length of the longest string `s`, such that `s` is a child of both `s1` and `s2`.
 
 **Sample Input**
 ```
@@ -28,6 +29,7 @@ SALLY
 **Explanation**
 The longest string that can be formed by deleting zero or more characters from `HARRY` and `SALLY` is `AY`, whose length is 2.
 
+## SAMPLE 1
 **Sample Input 1**
 ```
 AA
@@ -40,6 +42,7 @@ BB
 **Explanation 1**
 `AA`and `BB` have no characters in common and hence the output is 0.
 
+## SAMPLE 2
 **Sample Input 2**
 ```
 SHINCHAN
@@ -52,6 +55,7 @@ NOHARAAA
 **Explanation 2**
 The longest string that can be formed between `SHINCHAN` and `NOHARAAA` while maintaining the order is `NHA`.
 
+## SAMPLE 3
 **Sample Input 3**
 ```
 ABCDEF
@@ -64,5 +68,5 @@ FBDAMN
 **Explanation 3**  
 `BD` is the longest child of the given strings.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgzMzUwMzFdfQ==
+eyJoaXN0b3J5IjpbLTk0NTk0NzIyMV19
 -->
