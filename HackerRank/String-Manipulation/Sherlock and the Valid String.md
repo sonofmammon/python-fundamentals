@@ -22,7 +22,7 @@ Print  `YES`  if string  is  _valid_, otherwise, print  `NO`.
     NO
 **Explanation 0**
 
-Given  s = "aabbcd", we would need to remove two characters, both  `c`  and  `d`  -> `aabb`  or  `a`  and  `b` -> `abcd`, to make it valid. We are limited to removing only one character, so ***s*** is  _invalid_.
+Given  `s = "aabbcd"`, we would need to remove two characters, both  `c`  and  `d`  -> `aabb`  or  `a`  and  `b` -> `abcd`, to make it valid. We are limited to removing only one character, so ***s*** is  _invalid_.
 
 **Sample Input 1**     
 
@@ -53,5 +53,5 @@ Neither of these is an option.
 All characters occur twice except for **e** which occurs **3** times. We can delete one instance of **e** to have a valid string.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTY1Njg0NV19
+eyJoaXN0b3J5IjpbMjIxMzMzOTM5XX0=
 -->
