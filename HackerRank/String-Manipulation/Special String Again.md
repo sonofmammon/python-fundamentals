@@ -7,22 +7,21 @@ Given a string, determine how many special substrings can be formed from it.
 For example, given the string `s = mnonpoo`, we have the following special substrings:  
 `{m, n, o, n, o, p, o, o, non, ono, opo, oo}`.
 
-**Function Description**
+## Function Description
 Complete the  _substrCount_  function in the editor below. 
 It should return an integer representing the number of special substrings that can be formed from the given string.
-
 *substrCount* has the following parameter(s):
 -   _n_: an integer, the length of string  _s_
 -   _s_: a string
 
-**Input Format**
+### Input Format
 The first line contains an integer,  , the length of  .  
 The second line contains the string  .
 
-**Constraints**
+### Constraints
 Each character of the string is a lowercase alphabet,  .
 
-**Output Format**
+### Output Format
 Print a single line containing the count of total special substrings.
 
 **Sample Input 0**
@@ -49,6 +48,6 @@ aaaa
 **Explanation 2**
 The special palindromic substrings of  are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA1OTczNzksLTY1NzI4MzQ4NywxOT
-g1NjQ0ODc5XX0=
+eyJoaXN0b3J5IjpbLTU5ODc5Njg5MCwtNjU3MjgzNDg3LDE5OD
+U2NDQ4NzldfQ==
 -->
