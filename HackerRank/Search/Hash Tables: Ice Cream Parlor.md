@@ -28,10 +28,9 @@ Each of the next *t* sets of `3` lines is as follows:
 
 **Output Format**
 
-Print two space-separated integers denoting the respective indices for the two distinct flavors they choose to purchase in ascending order. Recall that each ice cream flavor has a unique ID number in the inclusive range from `1` to .
+Print two space-separated integers denoting the respective indices for the two distinct flavors they choose to purchase in ascending order. Recall that each ice cream flavor has a unique ID number in the inclusive range from `1` to `|cost|`.
 
 **Sample Input**
-
 ```
 2
 4
@@ -40,24 +39,17 @@ Print two space-separated integers denoting the respective indices for the two d
 4
 4
 2 2 4 3
-
 ```
-
 **Sample Output**
-
 ```
 1 4
 1 2
-
 ```
-
 **Explanation**
-
 Sunny and Johnny make the following two trips to the parlor:
 
-1.  The first time, they pool together  dollars. There are five flavors available that day and flavors  and  have a total cost of  .
-2.  The second time, they pool together  dollars. There are four flavors available that day and flavors  and  have a total cost of  .
+1.  The first time, they pool together `money = 4` dollars. There are five flavors available that day and flavors `1` and `4` have a total cost of `1 + 3 = 4`.
+2.  The second time, they pool together `money = 4` dollars. There are four flavors available that day and flavors `1` and `2` have a total cost of  .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU5NjcxMjQsLTE1Nzg4OTI0OTddfQ
-==
+eyJoaXN0b3J5IjpbNDAwMzYyNzU3LC0xNTc4ODkyNDk3XX0=
 -->
